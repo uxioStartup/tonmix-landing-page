@@ -36,11 +36,11 @@ self.__precacheManifest = [
     "url": "styles.301369c187428e001b73.css"
   },
   {
-    "url": "app-f680d667f57f709e163a.js"
+    "url": "app-1772884b1e57417a72d9.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "79ad06e6d37b8d428c7451a48637feca"
+    "revision": "ddc9a767ea4441daa599500293181d70"
   },
   {
     "url": "polyfill-c0fafb766c1534743afd.js"
@@ -157,7 +157,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/tonmix-landing-page/app-f680d667f57f709e163a.js`))) {
+  if (!resources || !(await caches.match(`/tonmix-landing-page/app-1772884b1e57417a72d9.js`))) {
     return await fetch(event.request)
   }
 
