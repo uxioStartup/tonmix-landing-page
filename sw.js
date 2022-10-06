@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-730fd42c999c79f9d182.js"
+    "url": "webpack-runtime-9997ab860a813b937441.js"
   },
   {
     "url": "framework-bc5b66489610c4031e06.js"
@@ -39,11 +39,11 @@ self.__precacheManifest = [
     "url": "dc6a8720040df98778fe970bf6c000a41750d3ae-71f0cc408a6fc074c3b5.js"
   },
   {
-    "url": "app-5836322f8121191c81a4.js"
+    "url": "app-7a7d8a3c4bac6da66f60.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "a376e05d7bc3814d7f600533773fdde1"
+    "revision": "318d613b8f3826580ceee2ed27fe657f"
   },
   {
     "url": "polyfill-3d2cfbd3729d7397298f.js"
@@ -160,7 +160,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/tonmix-landing-page/app-5836322f8121191c81a4.js`))) {
+  if (!resources || !(await caches.match(`/tonmix-landing-page/app-7a7d8a3c4bac6da66f60.js`))) {
     return await fetch(event.request)
   }
 
