@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunktonmix_landing_page=self.webpackChunktonmix_landing_page||[]).push([[473],{9813:function(n,e,t){t.r(e);var a=t(257),u=t(6987);e.default=function(){return a.createElement(u.Z,null)}}}]);
+//# sourceMappingURL=component---src-pages-cotizador-js-99bcaa5bbb49ef7cb7ff.js.map
