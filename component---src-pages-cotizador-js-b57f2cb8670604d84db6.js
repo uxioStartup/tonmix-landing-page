@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunktonmix_landing_page=self.webpackChunktonmix_landing_page||[]).push([[473],{9813:function(e,n,t){t.r(n);var a=t(257),i=t(6987);n.default=function(){return a.createElement(i.Z,null,a.createElement("iframe",{src:"../cotizador-app/index.html",style:{width:"100%",height:"500px"}}))}}}]);
-//# sourceMappingURL=component---src-pages-cotizador-js-b57f2cb8670604d84db6.js.map
