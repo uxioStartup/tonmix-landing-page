@@ -27,23 +27,26 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-494fd5fee4dce3462170.js"
+    "url": "webpack-runtime-62b6c75644aa5d229015.js"
   },
   {
-    "url": "styles.88c753fb33d3e7b806d7.css"
+    "url": "styles.75082c62752c6d53d1f0.css"
   },
   {
     "url": "framework-bc5b66489610c4031e06.js"
   },
   {
-    "url": "app-9fd94e7994dea1aa5283.js"
+    "url": "dc6a8720040df98778fe970bf6c000a41750d3ae-71f0cc408a6fc074c3b5.js"
+  },
+  {
+    "url": "app-2c613bae7b3678fdf5ac.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "fd8af8ad3c9cd332c5b584afbaf3c992"
+    "revision": "e26cbfc7c00573c9e6cb74b4d6350ea1"
   },
   {
-    "url": "polyfill-c0fafb766c1534743afd.js"
+    "url": "polyfill-3d2cfbd3729d7397298f.js"
   },
   {
     "url": "manifest.webmanifest",
@@ -157,7 +160,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/tonmix-landing-page/app-9fd94e7994dea1aa5283.js`))) {
+  if (!resources || !(await caches.match(`/tonmix-landing-page/app-2c613bae7b3678fdf5ac.js`))) {
     return await fetch(event.request)
   }
 
